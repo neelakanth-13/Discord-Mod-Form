@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Mod Application</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <main>
+        <form action="">
+            <div class="formHeader">
+                <img src="LindaJohansson_form_files_Untitled design - 2022-10-19T134349.198.634fd4f5e6d723.45805328.png"
+                    alt="">
+                <h1>Moderator Application</h1>
+                <p>Please fill out all sections</p>
+            </div>
+            <hr>
+            <div class="formContent">
+
+                <!-- name and username -->
+                <div class="names">
+                    <div>
+                        <label for="name">Name</label>
+                        <div class="name">
+                            <div class="nameInput">
+                                <input type="text" name="firstName" id="firstName">
+                                <label for="firstName">First Name</label>
+                            </div>
+                            <div class="nameInput">
+                                <input type="text" name="lastName" id="lastName">
+                                <label for="lastName">Last Name</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="username">Your discord username</label>
+                        <div class="username">
+                            <input type="text" name="username" id="username">
+                            <label for="username">(ex.) TreeUser#2315</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- email -->
+                <div class="emailDiv common">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <label for="email">example@example.com</label>
+                </div>
+
+                <!-- Age -->
+                <div class="age common">
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age">
+                </div>
+
+
+                <!-- During which time of the day are you usually active on the server? -->
+                <div class="discordTime common">
+                    <label for="discordTime">During which time of the day are you usually active on the server?</label>
+                    <input type="text" name="discordTime" id="discordTime">
+                </div>
+
+                <!-- What's your level of experience with moderation? -->
+                <div class="moderation common">
+                    <label for="moderation">What's your level of experience with moderation?</label>
+                    <textarea name="moderation" id="moderation"></textarea>
+                </div>
+
+
+                <!-- What would you add/bring to the staff team? -->
+                 <div class="add common">
+                     <label for="add">What would you add/bring to the staff team?</label>
+                     <textarea name="add" id="add"></textarea>
+                 </div>
+
+                <!-- radio button -->
+                <div class="radioButton" id="radioButton1">
+                    <p>Do you know that you must use grammar?</p>
+                    <input type="radio" name="useGrammer" id="yesRadioButton">
+                    <label for="yesRadioButton">Yes</label>
+
+                    <input type="radio" name="useGrammer" id="noRadioButton">
+                    <label for="noRadioButton">No</label>
+                </div>
+
+                <!-- optional text -->
+                <div class="optional common">
+                    <label for="optional">Is there anything else you would like to add? (Optional)</label>
+                    <textarea name="optional" id="optional"></textarea>
+                </div>
+
+                <hr>
+
+                <!-- buttons -->
+                <div class="buttons">
+                    <button id="saveButton">Save</button>
+                    <button id="submitButton">Submit</button>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
